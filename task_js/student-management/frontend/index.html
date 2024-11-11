@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Панель управления студентами</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Управление студентами</h1>
+
+    <h2>Добавить студента</h2>
+    <form id="studentForm">
+        <label for="firstName">Имя:</label>
+        <input type="text" id="firstName" required>
+        <label for="lastName">Фамилия:</label>
+        <input type="text" id="lastName" required>
+        <label for="patronymic">Отчество:</label>
+        <input type="text" id="patronymic" required>
+        <label for="birthDate">Дата рождения:</label>
+        <input type="date" id="birthDate" required>
+        <label for="startYear">Год начала обучения:</label>
+        <input type="number" id="startYear" required min="2000" max="2024">
+        <label for="faculty">Факультет:</label>
+        <input type="text" id="faculty" required>
+        <button type="submit">Добавить студента</button>
+    </form>
+
+    <h2>Список студентов</h2>
+    <table id="studentsTable">
+        <thead>
+            <tr>
+                <th>Ф. И. О.</th>
+                <th>Факультет</th>
+                <th>Дата рождения (Возраст)</th>
+                <th>Годы обучения</th>
+                <th>Действия</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Студенты будут отображаться здесь -->
+        </tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
