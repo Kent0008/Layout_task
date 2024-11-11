@@ -1,0 +1,142 @@
+/* Базовый сброс */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #070217;
+  color: #ffffff;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Стиль для картинок */
+.image {
+  margin-bottom: 32px;
+}
+
+/* Стили для ссылок */
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.bio-link {
+  padding: 24px 70px;
+  display: inline-block;
+}
+
+.download-link {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #ffffff;
+  background-image: url('download-icon.png'); /* Путь к картинке иконки */
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 96px 0;
+}
+
+h1 {
+  margin-bottom: 48px;
+  font-size: 60px;
+  line-height: 69px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+p {
+  margin-bottom: 48px;
+  font-size: 20px;
+  line-height: 180%;
+  color: #ffffff;
+  width: 871px;
+}
+
+.gray-box {
+  background-color: #f5f5f5;
+  padding: 32px;
+}
+
+h2 {
+  margin-bottom: 8px;
+  font-size: 40px;
+  line-height: 46px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 20px;
+  line-height: 180%;
+  color: #ffffff;
+  width: 871px;
+  margin-bottom: 32px;
+}
+
+figure {
+  width: 100%;
+}
+
+figcaption {
+  border: 1px solid #333;
+  padding: 33px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 180%;
+}
+
+.highlighted-text {
+  background-color: #ff5943;
+  padding: 33px 185px;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  line-height: 34px;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.list-item {
+  font-size: 20px;
+  line-height: 240%;
+  color: #ff5943;
+  border-bottom: 1px solid #333;
+  margin-bottom: 10px;
+}
+
+.list-item a {
+  color: #ff5943;
+}
+
+.gray-box-with-bg {
+  background-color: #f5f5f5;
+  background-image: url('background-image.jpg');
+  background-position: right;
+  padding: 32px;
+  margin-bottom: 96px;
+}
